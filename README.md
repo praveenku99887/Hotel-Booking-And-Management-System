@@ -150,16 +150,22 @@ npm start
 ## 🖥️ Frontend UI Features
 
 - **🏠 Home Page** - Browse and book available rooms easily.
+  ![image alt](https://github.com/praveenku99887/Hotel-Booking-And-Management-System/blob/52db6612fa93aa8f2604024d1420910d5b6bbb62/homePage.png)
 - **🛏️ Rooms Page** - View room details, pricing, and availability.
+  ![image alt](https://github.com/praveenku99887/Hotel-Booking-And-Management-System/blob/278eb714f5d54d500ee5c2d9872c20a7dd77433f/allRoom.png)
 - **🔍 Find My Booking** - Look up existing bookings.
+  ![image alt](https://github.com/praveenku99887/Hotel-Booking-And-Management-System/blob/278eb714f5d54d500ee5c2d9872c20a7dd77433f/findBooking.png)
 - **🔑 Login & Signup** - Secure user authentication and registration.
+ ![image alt](https://github.com/praveenku99887/Hotel-Booking-And-Management-System/blob/278eb714f5d54d500ee5c2d9872c20a7dd77433f/login.png)
+![image alt](https://github.com/praveenku99887/Hotel-Booking-And-Management-System/blob/278eb714f5d54d500ee5c2d9872c20a7dd77433f/registration.png)
 - **🕐 Check-in & Check-out** - Manage check-in and check-out processes.
 - **🛎️ Services Page** - View hotel services and amenities.
+   ![image alt](https://github.com/praveenku99887/Hotel-Booking-And-Management-System/blob/278eb714f5d54d500ee5c2d9872c20a7dd77433f/services.png)
 - **🏨 Room Types** - Filter and explore different types of rooms.
 - **👨‍💼 Admin Panel** - Admin dashboard for managing users, rooms, and bookings.
+  ![image alt](https://github.com/praveenku99887/Hotel-Booking-And-Management-System/blob/278eb714f5d54d500ee5c2d9872c20a7dd77433f/adminPage.png)
 - **🛠 Manage Room** - Add, update, or delete room details.
 - **📋 Manage Booking** - Oversee and handle all reservations.
-
 ## 🔐 Security
 
 - Uses **JWT Authentication** for protected routes.
