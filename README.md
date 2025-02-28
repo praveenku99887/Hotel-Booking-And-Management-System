@@ -91,9 +91,9 @@ npm start
 
 ```json
 {
-  "name": "John Doe",
-  "email": "john.doe@example.com",
-  "password": "password123"
+  "name": "Praveen Kumar",
+  "email": "praveen@example.com",
+  "password": "password123@"
 }
 ```
 
@@ -180,20 +180,9 @@ npm start
 - API requests must include a `Bearer Token` in headers.
 - Spring Security ensures proper role-based access control (RBAC).
 
-## 📜 API Documentation
-
-- Swagger UI is available at:
-  ```sh
-  http://localhost:8080/swagger-ui.html
-  ```
-
 ## 📬 API Testing in Postman
 
 You can import the **Postman Collection** and test API endpoints.
-
-## 📜 License
-
-This project is licensed under **MIT License**.
 
 ---
 
