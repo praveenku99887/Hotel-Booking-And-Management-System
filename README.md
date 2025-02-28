@@ -1,5 +1,5 @@
 # Hotel-Booking-And-Management-System
-
+![image alt](https://github.com/praveenku99887/Hotel-Booking-And-Management-System/blob/52db6612fa93aa8f2604024d1420910d5b6bbb62/homePage.png)
 ## 📌 Overview
 
 This is the full-stack application for **Hotel-Booking-And-Management-System** and a **Spring Boot backend** for user authentication, room management, and booking functionalities. The backend includes secure authentication, user management, room availability tracking, and booking processing, while the frontend provides an intuitive UI for users to interact with the system.
