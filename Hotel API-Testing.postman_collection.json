@@ -1,0 +1,281 @@
+{
+	"info": {
+		"_postman_id": "2e8e2c25-6507-43f9-bdfc-baace70f034d",
+		"name": "Praveen Hotel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42405345"
+	},
+	"item": [
+		{
+			"name": "registerUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3306/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "3306",
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"email\":\"admin@gmail.com\",\r\n    \"password\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8651/auth/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8651",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllUsers",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getUserById",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getLoggedInUserInfo",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getUserBookingHistory",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "deleteUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NDAwMzY0NTksImV4cCI6MTc0MDA0NjUzOX0.cZ9tK7eV_IWmdanABsvLMHLJZc-0u2gwYUTbcc-9QGo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8651/users/delete/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8651",
+					"path": [
+						"users",
+						"delete",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addRoom",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/C:/Users/PRAVEEN SINGH RAJPUT/Desktop/pexels-pixabay-164595.jpg"
+						},
+						{
+							"key": "roomType",
+							"value": "Standard",
+							"type": "text"
+						},
+						{
+							"key": "roomPrice",
+							"value": "4000",
+							"type": "text"
+						},
+						{
+							"key": "roomDescription",
+							"value": "it is the best room for You,\nA Lovely Standard room",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8651/rooms/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8651",
+					"path": [
+						"rooms",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allRoomTypes",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "allRooms",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getRoomById",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "deleteRoomById",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "updateRoomById",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "allAvailableRooms",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "allAvailableRoomsByDate",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "bookARoom",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getAllBookings",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getBookingConfirmation",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getBookingsByUserId",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "cancelBookingById",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NDAxMzQxMTYsImV4cCI6MTc0MDE0NDE5Nn0.6ptqonwYPgy7H4uifO3SajJvMxfE3ldd9GAQ4y02nPw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8651/bookings/cancel/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8651",
+					"path": [
+						"bookings",
+						"cancel",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
